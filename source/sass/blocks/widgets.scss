@@ -1,5 +1,5 @@
 .widgets {
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: auto;
   bottom: 10px;
@@ -22,8 +22,8 @@
 .widgets__link {
   display: flex;
   margin-bottom: 5px;
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   box-shadow: 1px 1px 5px lightgray;
   // filter: drop-shadow(2px 2px 1px laightgray);

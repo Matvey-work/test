@@ -8,7 +8,8 @@
   // height: 400px;
 
   @media (min-width: 320px) {
-
+    padding-top: 10px;
+    margin-top: 10px;
   }
 
   @media (min-width: 768px) {
@@ -31,6 +32,7 @@
     // padding-top: 40px;
     // padding-bottom: 40px;
     min-height: 800px;
+    padding-bottom: 60px;
   }
 }
 
@@ -44,7 +46,7 @@
   background-repeat: no-repeat;
 
   @media (min-width: 320px) {
-
+    font-size: 20px;
   }
 
   @media (min-width: 768px) {
@@ -91,6 +93,7 @@
 
   @media (min-width: 1800px) {
     // min-height: 660px;
+    margin-top: 70px;
   }
 }
 
@@ -136,10 +139,11 @@
     background-size: contain;
 
     @media (min-width: 320px) {
-
+      display: none;
     }
 
     @media (min-width: 768px) {
+      display: block;
       left: 10%;
       top: -10px;
       width: 185px;
@@ -303,6 +307,11 @@
 }
 
 .views-block__three {
+  // @media (max-width: 767px) {
+  //   & a {
+  //     // margin-bottom: -10px;
+  //   }
+  // }
 
   @media (min-width: 768px) {
     height: 180px;
@@ -314,7 +323,12 @@
 
   & a {
     margin-bottom: 20px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 5px;
+    }
   }
+
   &::before {
     // height: 60%;
     background-image: url("../img/why_3.png");

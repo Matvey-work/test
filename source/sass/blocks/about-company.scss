@@ -3,7 +3,8 @@
 
 
   @media (min-width: 320px) {
-
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   @media (min-width: 768px) {
@@ -25,6 +26,7 @@
 
   @media (min-width: 1800px) {
     margin-bottom: 50px;
+    padding-top: 60px;
     // background-position: 50% 45%;
 
   }
@@ -36,13 +38,13 @@
   background-image: url("../img/h2_about.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 55%;
+
 }
 
 .about-company__container {
   display: flex;
   flex-direction: column;
-
-
 
   @media (min-width: 320px) {
 
@@ -58,13 +60,13 @@
 
   @media (min-width: 1300px) {
     margin-bottom: 100px;
-    background-position: 50% 125%;
+    background-position: 50% 55%;
 
   }
 
   @media (min-width: 1800px) {
     margin-bottom: 150px;
-    background-position: 50% 45%;
+    background-position: 50% 55%;
 
   }
 
@@ -89,10 +91,11 @@
     background-size: contain;
 
     @media (min-width: 320px) {
-
+      display: none;
     }
 
     @media (min-width: 768px) {
+      display: block;
       width: 240px;
       height: 240px;
       top: 20%;
@@ -136,10 +139,11 @@
     background-size: contain;
 
     @media (min-width: 320px) {
-
+      display: none;
     }
 
     @media (min-width: 768px) {
+      display: block;
       width: 240px;
       height: 240px;
       top: 20%;
@@ -168,7 +172,7 @@
 }
 
 .about-company__text {
-  font-family: sans-serif;
+  font-family: "Arial", sans-serif;
 
   @media (min-width: 320px) {
 
@@ -195,11 +199,19 @@
   &-one,
   &-two {
     margin-left: 40%;
+
+    @media (max-width: 767px) {
+      margin-left: 1px;
+    }
   }
 
   &-three,
   &-four {
     margin-right: 40%;
+
+    @media (max-width: 767px) {
+      margin-right: 0;
+    }
   }
 
 }
@@ -207,9 +219,8 @@
 .about-company__title {
   // position: relative;
   margin-left: auto;
-
   // margin-bottom: 200px;
-  font-family: sans-serif;
+  font-family: "Arial", sans-serif;
 
 
 
@@ -234,6 +245,7 @@
   @media (min-width: 1800px) {
     margin-right: 40px;
     font-size: 28px;
+    margin-left: 720px;
   }
 
 
@@ -242,13 +254,14 @@
 .about-company__list {
   font-family: sans-serif;
   margin-top: 0;
-  margin-left: 40%;
 
   @media (min-width: 320px) {
+    margin-left: 0;
 
   }
 
   @media (min-width: 768px) {
+    margin-left: 40%;
 
   }
 
