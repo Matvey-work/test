@@ -2498,17 +2498,17 @@ h2 {
   border-radius: 50%;
   box-shadow: 1px 1px 5px lightgray; }
   .widgets__link--wsp {
-    background-image: url("../img/whatsapp.svg");
+    background-image: url("./img/whatsapp.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: contain; }
   .widgets__link--telegram {
-    background-image: url("../img/telegram.svg");
+    background-image: url("./img/telegram.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: contain; }
   .widgets__link--viber {
-    background-image: url("../img/viber.svg");
+    background-image: url("./img/viber.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: contain; }
