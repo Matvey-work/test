@@ -1,0 +1,56 @@
+.widgets {
+  position: sticky;
+  width: 100%;
+  height: auto;
+  bottom: 10px;
+  left: 10px;
+  width: 80px;
+  // background-image: url("../img/vacancy.png");
+  // height: 260px;
+  // background-color: tranparent;
+}
+
+.widgets__container {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  align-items: center;
+  // position: sticky;
+
+}
+
+.widgets__link {
+  display: flex;
+  margin-bottom: 5px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px lightgray;
+  // filter: drop-shadow(2px 2px 1px laightgray);
+
+  &--wsp {
+    background-image: url("../img/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    // z-index: 10;
+  }
+
+  &--telegram {
+    background-image: url("../img/telegram.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+
+  &--viber {
+    background-image: url("../img/viber.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 5px 3px gray;
+  }
+}

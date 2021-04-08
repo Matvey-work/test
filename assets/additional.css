@@ -1,0 +1,243 @@
+.page-node-460.node-type-webform .field-name-body h3,
+.node-type-casting .field-name-body h3{
+	text-transform:uppercase;
+	color:#f8113f;
+	font-size:24px;
+	margin-bottom:0.5em;
+}
+
+.node-type-vacs #webform-client-form-31,
+.page-node-460 #webform-client-form-460{
+	margin:0 70px;
+}
+.page-node-460 fieldset{
+	border:0;
+	padding: 0;
+	margin:30px 0px;
+}
+.page-node-460 fieldset legend{
+	border-bottom: 1px #e5e5e5 solid;
+	width:100%;
+	padding:0px 0px 9px 15px;
+	position:relative;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+.page-node-460 fieldset legend:before{
+	content: " ";
+	width: 10px;
+	height: 10px;
+	background: #ff0855;
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.node-type-vacs #webform-client-form-31 .form-item,
+.page-node-460 .form-item{
+	float: left;
+	margin-right:10px;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+.node-type-vacs #webform-client-form-31 div.selector,
+.page-node-460 div.selector{
+	width:222px;
+	border: 1px solid #000;
+    box-shadow: none;
+    font-family: arial;
+    font-size: 12px;
+    height: 30px;
+    font-weight:normal;
+    line-height: 28px;
+    padding:0;
+    padding-right:0;
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;  
+    box-sizing: border-box;
+   
+}
+.node-type-vacs #webform-client-form-31 div.selector span,
+.page-node-460 div.selector span{
+	height:28px;
+	line-height:28px;
+	padding-right: 12px;
+	background: url("img/select-arrow.png") no-repeat scroll 184px center transparent;
+	margin:0px;
+	text-indent:5px;
+}
+.node-type-vacs #webform-client-form-31 .form-textarea,
+.page-node-460 .form-textarea{
+	width:454px;
+	border: 1px solid #000;
+    box-shadow: none;
+    font-family: arial;
+    font-size: 12px;
+    padding:5px;
+    font-weight:normal;
+}
+.node-type-vacs #webform-client-form-31 .form-select,
+.page-node-460 .form-select{
+	width:224px;
+	border: 1px solid #000;
+    box-shadow: none;
+    font-family: arial;
+    font-size: 12px;
+    height: 28px;
+    padding:5px;
+    font-weight:normal;
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;  
+    box-sizing: border-box;
+    margin-top:-2px;
+}
+
+.node-type-vacs #webform-client-form-31 .form-text,
+.page-node-460 .form-text{
+	max-width:210px;
+	border: 1px solid #000;
+    box-shadow: none;
+    font-family: arial;
+    font-size: 12px;
+    height: 28px;
+    text-indent:5px;
+    font-weight:normal;
+}
+
+.node-type-vacs #webform-client-form-31 div.radio span,
+.page-node-460 div.radio span {
+    background: url("/sites/all/themes/framework/img/radio-b.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    text-align: center;
+}
+.node-type-vacs #webform-client-form-31 div.radio,
+.node-type-vacs #webform-client-form-31 div.radio span,
+.node-type-vacs #webform-client-form-31 div.radio input,
+.page-node-460 div.radio,
+.page-node-460 div.radio span,
+.page-node-460 div.radio input {
+    height: 21px;
+    width: 21px;
+}
+.node-type-vacs #webform-client-form-31 div.radio span.checked,
+.page-node-460 div.radio span.checked {
+    background-position: top right;
+}
+.node-type-vacs #webform-client-form-31 div.checker span,
+.page-node-460 div.checker span {
+    background: url("/sites/all/themes/framework/img/checkbox-b.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    text-align: center;
+}
+.node-type-vacs #webform-client-form-31 div.checker,
+.node-type-vacs #webform-client-form-31 div.checker span,
+.node-type-vacs #webform-client-form-31 div.checker input,
+.page-node-460 div.checker,
+.page-node-460 div.checker span,
+.page-node-460 div.checker input {
+    height: 30px;
+    width: 31px;
+}
+.node-type-vacs #webform-client-form-31 div.checker span.checked ,
+.page-node-460 div.checker span.checked {
+    background-position: top right;
+}
+.node-type-vacs #webform-client-form-31 .form-type-checkbox,
+.page-node-460 .form-type-checkbox {
+	width:222px;
+}
+.page-node-460 #edit-submitted-usloviya-soglasie .form-type-checkbox {
+	width:450px;
+}
+.page-node-460 #edit-submitted-usloviya-soglasie .form-type-checkbox label{
+	line-height:normal;
+}
+.node-type-vacs #webform-client-form-31 .form-checkboxes .form-item,
+.node-type-vacs #webform-client-form-31 .form-radios .form-item,
+.page-node-460 .form-checkboxes .form-item,.page-node-460 .form-radios .form-item {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+#webform-component-parametry label{
+	width:140px;
+	display:inline-block;
+}
+#edit-submitted-kontaktnye-dannye-stranica-v-soc-setyah{
+	width:442px;
+	max-width:442px;
+}
+.page-node-460 #edit-submitted-personalnye-dannye-pol .form-item{
+	float: none;
+}
+.page-node-460 label[for="edit-submitted-usloviya-soglasie-1"]{
+	font-size:11px;
+	line-height:0.9 !important;
+}
+#uniform-edit-submitted-usloviya-soglasie-1.checker{
+	margin-right:10px;
+}
+#uniform-edit-submitted-usloviya-soglasie-1{
+	float: left;
+}
+#webform-component-usloviya{
+	padding-bottom:20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+#webform-component-professionalnye-tancevalnye-navyki--dobavit-video1 label{
+	line-height:normal;
+	padding-bottom:10px;
+	font-weight:normal;
+}
+#edit-submitted-professionalnye-tancevalnye-navyki-dobavit-video3,
+#edit-submitted-professionalnye-tancevalnye-navyki-dobavit-video2,
+#edit-submitted-professionalnye-tancevalnye-navyki-dobavit-video1{
+	width: 411px;
+	max-width: none;
+}
+
+#webform-client-form-460{
+	padding-bottom:50px;
+}
+#webform-component-portfolio .fieldset-legend:after,
+#webform-component-kontaktnye-dannye .fieldset-legend:after,
+#webform-component-parametry .fieldset-legend:after,
+#webform-component-personalnye-dannye .fieldset-legend:after{
+	content:" *";
+	color:#ff2468;
+	font-weight:bold;
+	font-size:18px;
+	line-height:14px;
+}
+.red{
+	color:#ff2468;
+	font-weight:normal;
+}
+
+.page-node-460.node-type-webform .field-name-body h4{
+    color: #f8113f;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+.node-type-vacs #webform-client-form-31 #edit-submitted-socseti{
+	width:444px;
+	max-width:444px;
+}
+
+.node-type-vacs #webform-client-form-31 #webform-component-socseti,
+.node-type-vacs #webform-client-form-31 #webform-component-tip-lica,
+.node-type-vacs #webform-client-form-31 #webform-component-ves{
+	clear:left;
+}
+.node-type-vacs #webform-client-form-31 #edit-actions{
+	clear:both;
+	float: left;
+	width:100%;
+	margin-top:30px;
+}

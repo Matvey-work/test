@@ -1,0 +1,193 @@
+.footer {
+  margin-top: -40px;
+}
+
+.contact-us {
+  // background: url("../img/contact_us.png") bottom center no-repeat, url("../img/vacancy.png") left bottom repeat-x;
+  background-image: url("../img/contact_us.png"), url("../img/vacancy.png");
+  background-position-x: center, left;
+  background-position-y: bottom, bottom;
+  background-repeat: no-repeat, repeat;
+  padding-top: 20px;
+}
+
+.contact-us h2 {
+  // padding-top: 40px;
+  background-image: url("../img/h2_contact_us.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    padding-bottom: 20px;
+
+  }
+
+  @media (min-width: 1800px) {
+    padding-bottom: 50px;
+
+  }
+}
+
+.footer__contact a {
+  position: relative;
+  color: #666666;
+  text-decoration: none;
+  margin-bottom: 50px;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 20px;
+
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 30px;
+
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      top: -3px;
+      left: -30px;
+      width: 25px;
+      height: 25px;
+    }
+
+    @media (min-width: 1024px) {
+      left: -30px;
+      width: 25px;
+      height: 25px;
+    }
+
+    @media (min-width: 1300px) {
+      left: -50px;
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+  }
+}
+
+.footer__contact-mail {
+  &::before {
+    background-image: url("../img/top_mail.png");
+  }
+}
+
+.footer__contact-tel {
+  &::before {
+    background-image: url("../img/top_tel.png");
+  }
+}
+
+.footer__social {
+  // align-items: center;
+  padding-bottom: 40px;
+  height: auto;
+
+  &.social .share__social-btn {
+
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (min-width: 1024px) {
+      width: 40px;
+      height: 40px;
+      // margin-left: 10px;
+    }
+
+    @media (min-width: 1300px) {
+      width: 50px;
+      height: 50px;
+      // margin-left: -200px;
+    }
+
+    @media (min-width: 1800px) {
+      // margin-left: -300px;
+      width: 60px;
+      height: 60px;
+
+    }
+  }
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    margin-left: -280px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: -260px;
+  }
+
+  @media (min-width: 1300px) {
+    // width: 50px;
+    // height: 50px;
+    margin-left: -300px;
+  }
+
+  @media (min-width: 1800px) {
+    margin-left: -300px;
+
+  }
+
+}

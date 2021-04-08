@@ -1,0 +1,438 @@
+.service-vacancy {
+  margin-top: 10px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.vacancy h2 {
+  // padding-top: 40px;
+  background-image: url("../img/h2_vacancy.png");
+  background-position: 50% 55%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 26px;
+  }
+
+  @media (min-width: 1300px) {
+    // padding-top: 15px;
+    background-position: 50% 55%;
+  }
+
+  @media (min-width: 1800px) {
+    background-position: 50% 55%;
+    font-size: 40px;
+    line-height: 42px;
+  }
+}
+
+.vacancy__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  // font-size: 32px;
+  padding-left: 0;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 29px;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 32px;
+  }
+}
+
+.vacancy-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+  margin-bottom: 20px;
+  background-color: rgb(237, 237, 237);
+  position: relative;
+  cursor: pointer;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    background-image: url("../img/vacancy_collapsed.png");
+    transform: rotate(0deg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      top: 15px;
+      right: 50px;
+      // left: 40px;
+      width: 20px;
+      height: 20px
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      top: 30px;
+      right: 50px;
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (min-width: 1800px) {
+      top: 40px;
+      right: 50px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &.active {
+    &::before {
+      transform: rotate(180deg);
+    }
+  }
+
+  &--anketa {
+    display: flex;
+    flex-direction: row;
+    // justify-content: stretch;
+    cursor: text;
+    padding: 30px 0;
+    // font: 1em sans-serif;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+
+    & span {
+
+      @media (min-width: 320px) {
+
+      }
+
+      @media (min-width: 768px) {
+        margin-right: 15%;
+        margin-left: 10%;
+        font-size: 19px;
+        line-height: 20px;
+      }
+
+      @media (min-width: 1024px) {
+
+      }
+
+      @media (min-width: 1300px) {
+        margin-right: 15%;
+        margin-left: 10%;
+        font-size: 21px;
+        line-height: 22px;
+      }
+
+      @media (min-width: 1800px) {
+        margin-right: 15%;
+        margin-left: 10%;
+        font-size: 28px;
+        line-height: 30px;
+      }
+
+    }
+
+    &::before {
+      background-image: none;
+    }
+  }
+}
+
+.more-info {
+  display: none;
+  // display: flex;
+  flex-wrap: wrap;
+  // flex-direction: column;
+  font-size: 20px;
+  padding: 30px 40px;
+  background-color: rgb(237, 237, 237);
+  border-top: 2px solid #fff;
+
+  &.visible {
+    display: flex;
+  }
+}
+
+.block-left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  position: relative;
+
+  & p {
+
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 22px;
+    }
+
+    @media (min-width: 1300px) {
+      font-size: 24px;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 28px;
+    }
+  }
+
+  & span {
+    color: #000000;
+    font-weight: 700;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      font-size: 25px;
+    }
+
+    @media (min-width: 1800px) {
+    font-size: 28px;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    width: 40%;
+    height: 40%;
+    // background-image: url("../img/vacancy_img4.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      top: 10%;
+      right: -50%;
+    }
+
+  }
+
+    @media (min-width: 1024px) {
+      top: 10%;
+      right: -50%;
+    }
+
+    @media (min-width: 1300px) {
+      // top: 110px;
+      top: 10%;
+      right: -50%;
+    }
+
+    @media (min-width: 1800px) {
+      top: 110px;
+      right: -500px;
+    }
+
+
+  &--fly::before {
+    background-image: url("../img/vacancy_img4.png");
+
+  }
+
+  &--party::before {
+
+    background-image: url("../img/vacancy_img5.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      top: 50px;
+    }
+
+    @media (min-width: 1800px) {
+      top: 60px;
+    }
+  }
+
+  &--travel::before {
+    background-image: url("../img/vacancy_img6.png");
+  }
+}
+
+.block-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 33%;
+
+  margin-left: auto;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 25px;
+  }
+
+  & p {
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+.block-girl__features {
+
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+
+  & span {
+    color: #000;
+    font-weight: 700;
+  }
+}

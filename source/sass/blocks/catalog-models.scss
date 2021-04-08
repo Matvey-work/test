@@ -1,0 +1,281 @@
+.catalog-models{
+  margin-top: 5px;
+  background-image: url("../img/catalog.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // padding: 20px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    padding-bottom: 60px;
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.catalog-models h2 {
+  // padding-top: 40px;
+  color: #000;
+  font-family: "OpenSans CondLight", sans-serif;
+  background-image: url(../img/h2_team.png);
+  background-position: 50% 45%;
+  background-size: contain;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    font-weight: normal;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.models {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+
+  & img {
+    display: flex;
+
+    background-image: url("../img/catalog.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (min-width: 1800px) {
+      width: 280px;
+      height: 320px;
+    }
+  }
+
+  & img:hover {
+    background-image: url("../img/catalog_hover.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  & .model {
+    position: relative;
+  }
+
+  & img:hover+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    font-weight: 700;
+    text-align: center;
+
+    color: #fff;
+    background-color: red;
+    z-index: 10;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      top: -40%;
+      left: 40%;
+      width: 100%;
+      height: 28%;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    @media (min-width: 1800px) {
+      top: -20%;
+      left: 60%;
+      font-size: 22px;
+      line-height: 24px;
+      width: 200px;
+      height: 60px;
+    }
+  }
+}
+
+.models-top,
+.models-bottom {
+  display: flex;
+  margin-bottom: 40px;
+
+  @media (min-width: 320px) {
+    flex-wrap: wrap;
+
+  }
+
+  @media (min-width: 768px) {
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.models-top .model:last-child {
+  @media (min-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text {
+  display: none;
+}
+
+.fill-anketa {
+  display: flex;
+  flex-direction: row;
+  cursor: text;
+  align-items: center;
+  // padding: 40px 0;
+  // padding-bottom: 1px;
+  margin-bottom: 20px;
+  background-color: #ededed;
+  color: #000;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    justify-content: flex-start;
+  }
+
+  @media (min-width: 1300px) {
+    justify-content: flex-start;
+    // margin-left: 60px;
+  }
+
+  @media (min-width: 1800px) {
+    justify-content: space-around;
+
+  }
+
+  & p {
+
+    text-align: center;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 18px;
+      line-height: 20px;
+      margin-left: 40px;
+      margin-right: 10px;
+    }
+
+    @media (min-width: 1300px) {
+      font-size: 22px;
+      line-height: 24px;
+      margin-left: 50px;
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 28px;
+    }
+  }
+
+  & span {
+    color: #ef205f;
+    ;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+      font-size: 24px
+    }
+
+    @media (min-width: 1800px) {
+      font-size: 28px
+    }
+  }
+}

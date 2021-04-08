@@ -1,0 +1,363 @@
+.slider {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("../img/mcar2.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    min-height: 700px;
+
+  }
+
+  @media (min-width: 1800px) {
+    min-height: 700px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+
+.sliders {
+  display: flex;
+  // margin: 0 20px;
+  // padding: 0 10px;
+
+}
+
+.slider__field {
+  position: relative;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  // width: 100% !important;
+  overflow: hidden;
+  // padding: 0 10px;
+  // margin: 0 10px;
+}
+
+.slider-left {
+  align-items: center;
+  margin-right: 50px;
+  padding: 40px 0;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+
+.slider-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  padding: 40px 0;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.slider-left__text-top,
+.slider-right__text-bottom {
+  background-color: black;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.slider-right__text-bottom {
+  font-size: 18px;
+  font-weight: 700;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+
+
+.slider-left__text-middle,
+.slider-left__text-bottom,
+.slider-right__text-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #f05198;
+  padding: 10px 0;
+  // font-size: 32px;
+  // line-height: 50px;
+  text-align: center;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+.model-translater {
+  padding: 10px 20px;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+}
+
+
+.slider__link {
+  display: flex;
+  // margin-left: 0;
+  justify-content: center;
+  align-items: center;
+  margin-right: 180px;
+  width: 220px;
+  height: 50px;
+  padding: 0;
+  background-color: #dd3579;
+  box-shadow: lightgray 1px 1px;
+  border-bottom: #a50043 2px solid;
+  font-weight: 100;
+  font-size: 17px;
+  text-align: center;
+  color: #FFF;
+  font-family: "opensans_cl", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.img-slider {
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 500px;
+    height: 500px;
+  }
+
+  @media (min-width: 1300px) {
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+
+  &--one {
+    background-image: url("../img/mcar_pic2.png");
+  }
+
+  &--two {
+    background-image: url("../img/mcar_pic3.png");
+  }
+
+  &--three {
+    background-image: url("../img/mcar_pic4.png");
+  }
+
+  &--four {
+    background-image: url("../img/mcar_pic5.png");
+  }
+}
+
+.slick-arrow {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  background-color: transparent;
+  background-image: url("../img/mcar_prev.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media (min-width: 1300px) {
+    width: 100px;
+    height: 100px;
+  }
+
+  @media (min-width: 1800px) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.slick-prev {
+  z-index: 999;
+}
+
+.slick-next {
+  right: 0;
+  left: auto;
+  transform: rotate(180deg);
+}

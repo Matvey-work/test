@@ -1,0 +1,350 @@
+.why-us {
+  background-image: url("../img/why.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  min-height: 800px;
+  margin-bottom: 0;
+  // background-size: contain;
+  // height: 400px;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 10px;
+    // padding-bottom: 10px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media (min-width: 1300px) {
+    min-height: 800px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  @media (min-width: 1800px) {
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+    min-height: 800px;
+  }
+}
+
+.why-us h2 {
+  // margin-top: 40px;
+  margin-bottom: 20px;
+  // padding-top: 40px;
+  background-image: url("../img/h2_why.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: 1300px) {
+    background-position: 50% 45%;
+    font-size: 40px;
+  }
+
+  @media (min-width: 1800px) {
+    background-position: 50% 45%;
+    width: 100%;
+    font-size: 50px;
+
+  }
+}
+
+.why-us__container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 320px) {
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 540px;
+  }
+
+  @media (min-width: 1300px) {
+    flex-wrap: nowrap;
+    min-height: 660px;
+  }
+
+  @media (min-width: 1800px) {
+    // min-height: 660px;
+  }
+}
+
+.views-block {
+  position: relative;
+  // margin-right: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 320px) {
+    // flex-wrap: wrap;
+    min-width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    // margin-left: 30px;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+  min-width: 25%;
+
+  }
+
+  @media (min-width: 1800px) {
+
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+
+
+    // background-image: url("../img/why_1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    // background-size: 300px 340px;
+    background-size: contain;
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+      left: 10%;
+      top: -10px;
+      width: 185px;
+      height: 180px;
+    }
+
+    @media (min-width: 1024px) {
+      left: 10%;
+      top: -10px;
+      width: 185px;
+      height: 180px;
+    }
+
+    @media (min-width: 1300px) {
+      width: 70%;
+      height: 55%;
+      top: 0;
+      left: 20%;
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+    // z-index: 99;
+  }
+}
+
+.views-block a {
+  display: flex;
+
+  background-color: #4f4f4f;
+  font-family: "Arial", sans-serif;
+
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    width: 25%;
+    justify-content: center;
+  }
+
+  @media (min-width: 1024px) {
+    width: 25%;
+    justify-content: center;
+    // align-items: flex-start;
+
+  }
+
+  @media (min-width: 1300px) {
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 240px;
+    font-size: 24px;
+  }
+
+  @media (min-width: 1800px) {
+    margin-top: 340px;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.views-block p {
+  font-family: "Arial", sans-serif;
+
+  position: relative;
+  background-color: transparent;
+  align-items: center;
+
+  // word-wrap: break-word;
+  // justify-content: end;
+  margin-top: 30px;
+  // height: 100%;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    max-width: 40%;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 40%;
+    text-align: center;
+
+    // margin-left: 140px;
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 22px;
+    max-width: 80%;
+    text-align: center;
+
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 24px;
+  }
+}
+
+.views-block__one {
+  position: relative;
+  // width: 450px;
+
+  &::before {
+    background-image: url("../img/why_1.png");
+  }
+
+}
+
+.views-block__two {
+
+  @media (min-width: 768px) {
+    height: 180px;
+  }
+
+  @media (min-width: 1300px) {
+    height: 60%;
+  }
+
+  &::before {
+
+    background-image: url("../img/why_2.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+      // width: 70%;
+      height: 100%;
+    }
+
+    @media (min-width: 1300px) {
+      height: 60%;
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+  }
+}
+
+.views-block__three {
+
+  @media (min-width: 768px) {
+    height: 180px;
+  }
+
+  @media (min-width: 1300px) {
+    height: 60%;
+  }
+
+  & a {
+    margin-bottom: 20px;
+  }
+  &::before {
+    // height: 60%;
+    background-image: url("../img/why_3.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+      height: 100%;
+    }
+
+    @media (min-width: 1300px) {
+      height: 60%;
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+  }
+}
+
+.views-block__four {
+  margin-right: 0;
+
+  &::before {
+    background-image: url("../img/why_4.png");
+  }
+}

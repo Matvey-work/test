@@ -1,0 +1,221 @@
+.share {
+  display: flex;
+  flex-direction: column;
+}
+
+.share__text {
+  font-family: sans-serif;
+
+  color: #eb1456;
+  // text-align: center;
+
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    font-size: 30px;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 40px;
+    text-align: start;
+
+  }
+}
+
+.share__social {
+  display: flex;
+  height: 100px;
+
+
+  // justify-content: center;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1300px) {
+    margin-left: 25%;
+  }
+
+  @media (min-width: 1800px) {
+    margin-left: 300px;
+  }
+}
+
+.share__social-btn {
+  position: relative;
+  display: flex;
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (min-width: 320px) {
+
+  }
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 100%;
+    // margin-left: -50px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 40px;
+    height: 100%;
+  }
+
+  @media (min-width: 1300px) {
+    // margin-left: 20px;
+    width: 40px;
+    height: 100%;
+  }
+
+  @media (min-width: 1800px) {
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+  }
+
+  &-vk {
+    background-image: url("../img/fsoc_vk.png");
+
+    &:hover {
+      background-image: url("../img/fsoc_vk_h.png");
+    }
+  }
+
+  &-ok {
+    left: 85px;
+    background-image: url("../img/fsoc_ok.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+
+    &:hover {
+      background-image: url("../img/fsoc_ok_h.png");
+    }
+  }
+
+  &-fb {
+    left: 170px;
+    background-image: url("../img/fsoc_fb.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+
+    &:hover {
+      background-image: url("../img/fsoc_fb_h.png");
+    }
+  }
+
+  &-twitter {
+    left: 255px;
+    background-image: url("../img/fsoc_tw.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+
+    &:hover {
+      background-image: url("../img/fsoc_tw_h.png");
+    }
+  }
+
+  &-mailru {
+    left: 340px;
+    background-image: url("../img/fsoc_mr.png");
+
+    @media (min-width: 320px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1024px) {
+
+    }
+
+    @media (min-width: 1300px) {
+
+    }
+
+    @media (min-width: 1800px) {
+
+    }
+
+    &:hover {
+      background-image: url("../img/fsoc_mr_h.png");
+    }
+  }
+}
