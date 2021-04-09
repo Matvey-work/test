@@ -1595,7 +1595,8 @@ h2 {
         left: 20px; } }
     @media (min-width: 768px) {
       .share__social-btn-vk {
-        margin-left: 0; } }
+        margin-left: 0;
+        left: 0; } }
     .share__social-btn-vk:hover {
       background-image: url("../img/fsoc_vk_h.png"); }
   .share__social-btn-ok {
