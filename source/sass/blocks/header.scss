@@ -37,7 +37,7 @@
   // font-size: 40px;
   align-self: center;
 
-  &:hover {
+  &:not(:first-child):hover {
     text-decoration: underline;
   }
 

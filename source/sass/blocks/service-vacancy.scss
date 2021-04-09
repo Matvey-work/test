@@ -1,7 +1,10 @@
 .service-vacancy {
-  margin-top: 10px;
+  // margin-top: 10px;
   padding-bottom: 40px;
   padding-top: 40px;
+  background-image: url("../img/why.png");
+  background-repeat: repeat-x;
+  background-size: contain;
 
   @media (min-width: 320px) {
 
@@ -377,14 +380,14 @@
           // top: 110px;
       width: 60%;
       height: 40%;
-      top: 10%;
+      top: 3%;
       right: -50%;
     }
 
     @media (min-width: 1800px) {
       width: 60%;
       height: 40%;
-      top: 10%;
+      top: 5%;
       right: -500px;
     }
   }
@@ -418,7 +421,7 @@
     }
 
     @media (min-width: 1800px) {
-      top: -20px;
+      // top: -20px;
     }
   }
 
@@ -454,6 +457,8 @@
 
   @media (min-width: 1300px) {
     font-size: 24px;
+    margin-top: 45%;
+
   }
 
   @media (min-width: 1800px) {

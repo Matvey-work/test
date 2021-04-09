@@ -74,6 +74,10 @@
     width: 20px;
     height: 50%;
     margin-right: -40px;
+
+    &:last-child {
+      margin-right: -50px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -106,6 +110,11 @@
   &-vk {
     background-image: url("../img/fsoc_vk.png");
 
+    @media (min-width: 320px) {
+      left: 20px;
+
+    }
+
     @media (min-width: 768px) {
     margin-left: 0;
 
@@ -117,14 +126,15 @@
   }
 
   &-ok {
-    left: 85px;
     background-image: url("../img/fsoc_ok.png");
 
     @media (min-width: 320px) {
+      left: 90px;
 
     }
 
     @media (min-width: 768px) {
+      left: 85px;
 
     }
 
@@ -150,10 +160,12 @@
     background-image: url("../img/fsoc_fb.png");
 
     @media (min-width: 320px) {
-
+      left: 160px;
     }
 
     @media (min-width: 768px) {
+      left: 170px;
+
 
     }
 
@@ -179,10 +191,12 @@
     background-image: url("../img/fsoc_tw.png");
 
     @media (min-width: 320px) {
+      left: 225px;
 
     }
 
     @media (min-width: 768px) {
+      left: 255px;
 
     }
 
@@ -208,10 +222,12 @@
     background-image: url("../img/fsoc_mr.png");
 
     @media (min-width: 320px) {
+    left: 290px;
 
     }
 
     @media (min-width: 768px) {
+      left: 340px;
 
     }
 

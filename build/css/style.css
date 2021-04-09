@@ -492,7 +492,7 @@ h2 {
   text-decoration: none;
   color: #000;
   align-self: center; }
-  .page-header a:hover {
+  .page-header a:not(:first-child):hover {
     text-decoration: underline; }
   .page-header a::before {
     content: "";
@@ -933,8 +933,7 @@ h2 {
     .slider__link {
       letter-spacing: 1px; } }
   .slider__link:hover {
-    text-decoration: underline;
-    box-shadow: #d4d4d4 1px 1px; }
+    text-decoration: underline; }
 
 .img-slider {
   background-position: 0 0;
@@ -978,28 +977,43 @@ h2 {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain; }
+  @media (min-width: 768px) {
+    .slick-arrow {
+      display: none; } }
   @media (min-width: 1024px) {
     .slick-arrow {
-      display: none;
+      display: block;
+      left: -20px;
       width: 60px;
       height: 60px; } }
-  @media (min-width: 1300px) {
-    .slick-arrow {
-      display: block;
-      width: 100px;
-      height: 100px; } }
-  @media (min-width: 1800px) {
-    .slick-arrow {
-      width: 100px;
-      height: 100px; } }
 
 .slick-prev {
   z-index: 999; }
+  @media (min-width: 1024px) {
+    .slick-prev {
+      display: block;
+      left: -25px;
+      width: 60px;
+      height: 60px; } }
+  @media (min-width: 1300px) {
+    .slick-prev {
+      width: 100px;
+      height: 100px; } }
 
 .slick-next {
   right: 0;
   left: auto;
   transform: rotate(180deg); }
+  @media (min-width: 1024px) {
+    .slick-next {
+      display: block;
+      right: -25px;
+      width: 60px;
+      height: 60px; } }
+  @media (min-width: 1300px) {
+    .slick-next {
+      width: 100px;
+      height: 100px; } }
 
 .our-models {
   margin-left: auto;
@@ -1354,13 +1368,11 @@ h2 {
       padding-bottom: 20px; } }
   @media (min-width: 1300px) {
     .about-company {
-      margin-bottom: 100px;
       padding-top: 40px;
       padding-bottom: 40px; } }
   @media (min-width: 1800px) {
     .about-company {
-      margin-bottom: 50px;
-      padding-top: 60px; } }
+      padding-top: 40px; } }
 
 .about-company h2 {
   color: #666;
@@ -1374,11 +1386,9 @@ h2 {
   flex-direction: column; }
   @media (min-width: 1300px) {
     .about-company__container {
-      margin-bottom: 100px;
       background-position: 50% 55%; } }
   @media (min-width: 1800px) {
     .about-company__container {
-      margin-bottom: 150px;
       background-position: 50% 55%; } }
 
 .about-company__container-top {
@@ -1555,7 +1565,9 @@ h2 {
     .share__social-btn {
       width: 20px;
       height: 50%;
-      margin-right: -40px; } }
+      margin-right: -40px; }
+      .share__social-btn:last-child {
+        margin-right: -50px; } }
   @media (min-width: 768px) {
     .share__social-btn {
       width: 40px;
@@ -1578,29 +1590,55 @@ h2 {
       height: 80px; } }
   .share__social-btn-vk {
     background-image: url("../img/fsoc_vk.png"); }
+    @media (min-width: 320px) {
+      .share__social-btn-vk {
+        left: 20px; } }
     @media (min-width: 768px) {
       .share__social-btn-vk {
         margin-left: 0; } }
     .share__social-btn-vk:hover {
       background-image: url("../img/fsoc_vk_h.png"); }
   .share__social-btn-ok {
-    left: 85px;
     background-image: url("../img/fsoc_ok.png"); }
+    @media (min-width: 320px) {
+      .share__social-btn-ok {
+        left: 90px; } }
+    @media (min-width: 768px) {
+      .share__social-btn-ok {
+        left: 85px; } }
     .share__social-btn-ok:hover {
       background-image: url("../img/fsoc_ok_h.png"); }
   .share__social-btn-fb {
     left: 170px;
     background-image: url("../img/fsoc_fb.png"); }
+    @media (min-width: 320px) {
+      .share__social-btn-fb {
+        left: 160px; } }
+    @media (min-width: 768px) {
+      .share__social-btn-fb {
+        left: 170px; } }
     .share__social-btn-fb:hover {
       background-image: url("../img/fsoc_fb_h.png"); }
   .share__social-btn-twitter {
     left: 255px;
     background-image: url("../img/fsoc_tw.png"); }
+    @media (min-width: 320px) {
+      .share__social-btn-twitter {
+        left: 225px; } }
+    @media (min-width: 768px) {
+      .share__social-btn-twitter {
+        left: 255px; } }
     .share__social-btn-twitter:hover {
       background-image: url("../img/fsoc_tw_h.png"); }
   .share__social-btn-mailru {
     left: 340px;
     background-image: url("../img/fsoc_mr.png"); }
+    @media (min-width: 320px) {
+      .share__social-btn-mailru {
+        left: 290px; } }
+    @media (min-width: 768px) {
+      .share__social-btn-mailru {
+        left: 340px; } }
     .share__social-btn-mailru:hover {
       background-image: url("../img/fsoc_mr_h.png"); }
 
@@ -1625,6 +1663,9 @@ h2 {
   @media (min-width: 768px) {
     .team-part h2 {
       font-size: 24px; } }
+  @media (min-width: 1300px) {
+    .team-part h2 {
+      font-size: 36px; } }
   @media (min-width: 1800px) {
     .team-part h2 {
       font-size: 48px; } }
@@ -1927,9 +1968,11 @@ h2 {
     color: #eb1456; }
 
 .service-vacancy {
-  margin-top: 10px;
   padding-bottom: 40px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  background-image: url("../img/why.png");
+  background-repeat: repeat-x;
+  background-size: contain; }
 
 .vacancy h2 {
   background-image: url("../img/h2_vacancy.png");
@@ -2132,21 +2175,18 @@ h2 {
       .block-left::before {
         width: 60%;
         height: 40%;
-        top: 10%;
+        top: 3%;
         right: -50%; } }
     @media (min-width: 1800px) {
       .block-left::before {
         width: 60%;
         height: 40%;
-        top: 10%;
+        top: 5%;
         right: -500px; } }
   .block-left--fly::before {
     background-image: url("../img/vacancy_img4.png"); }
   .block-left--party::before {
     background-image: url("../img/vacancy_img5.png"); }
-    @media (min-width: 1800px) {
-      .block-left--party::before {
-        top: -20px; } }
   .block-left--travel::before {
     background-image: url("../img/vacancy_img6.png"); }
 
@@ -2169,7 +2209,8 @@ h2 {
       margin-top: 60%; } }
   @media (min-width: 1300px) {
     .block-right {
-      font-size: 24px; } }
+      font-size: 24px;
+      margin-top: 45%; } }
   @media (min-width: 1800px) {
     .block-right {
       font-size: 30px; } }
@@ -2198,7 +2239,6 @@ h2 {
   margin-bottom: 20px; }
 
 .catalog-models {
-  margin-top: 5px;
   background-image: url("../img/catalog.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -2219,7 +2259,7 @@ h2 {
 .catalog-models h2 {
   color: #000;
   font-family: "OpenSans CondLight", sans-serif;
-  background-image: url(../img/h2_team.png);
+  background-image: url("../img/h2_catalog.png");
   background-position: 50% 45%;
   background-size: contain; }
   @media (min-width: 768px) {
@@ -2603,15 +2643,15 @@ h2 {
       margin-left: 0px;
       letter-spacing: 1px; } }
   .btn-anketa:hover {
-    text-decoration: underline;
-    box-shadow: lightgray 1px 2px; }
+    text-decoration: underline; }
 
 .widgets {
   position: fixed;
   width: 100%;
   height: auto;
   bottom: 10px;
-  width: 80px; }
+  width: 80px;
+  z-index: 10011; }
   @media (min-width: 320px) {
     .widgets {
       left: 5px; } }

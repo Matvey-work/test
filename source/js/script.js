@@ -3,7 +3,7 @@ $(document).ready(function(){
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3100,
     adaptiveHeight: true,
     cssEase: 'linear',
@@ -17,7 +17,7 @@ $('.slider-nav').slick({
 });
 
 $('.vacancy-item').on('click', function(){
-    if ($(this).find('.more-info').hasClass('visible')) {
+  if ($(this).find('.more-info').hasClass('visible')) {
     $(this).find('.more-info').removeClass('visible');
   } else {
     $('.more-info').removeClass('visible');
@@ -25,13 +25,21 @@ $('.vacancy-item').on('click', function(){
   }
 });
 
+var vacancy_list = $('.vacancy-item');
+
 $('.vacancy-item').on('click', function(){
-  $(this).toggleClass('active');
+  if ($(this).hasClass('active')) {
+    $(this).removeClass('active');
+  } else {
+    for (var i = 0; i < vacancy_list.length; i++) {
+      vacancy_list[i].classList.remove('active');
+    }
+    $(this).addClass('active');
+    // $(this).removeClass('active');
+  }
+  // $(this).toggleClass('active');
 });
 
-// $('.gamburge').on('click', function(){
-//   $('.main-nav').find('.main-menu').toggleClass('visible');
-// });
 
 let navMain = document.querySelector('.main-nav');
 let navToggle = document.querySelector('.main-nav-toggle');
