@@ -159,13 +159,27 @@
   }
 
   @media (min-width: 1800px) {
-
+    font-size: 26px;
+    line-height: 28px;
   }
 }
 
+.slider-left__text-top,
+.slider-left__text-middle,
+.slider-left__text-bottom {
+  font-family: "OpenSans CondLight", sans-serif;
+}
+
+.slider-left__text-top {
+  width: fit-content;
+  margin-left: auto;
+}
+
 .slider-right__text-bottom {
+  font-family: "Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
+  // padding: 5px;
 
   @media (min-width: 320px) {
 
@@ -180,6 +194,7 @@
   }
 
   @media (min-width: 1300px) {
+  font-size: 20px;
 
   }
 
@@ -234,7 +249,7 @@
 }
 
 .model-translater {
-  padding: 10px 20px;
+  // padding:  0 10px;
 
   @media (min-width: 320px) {
 
@@ -268,13 +283,14 @@
   height: 50px;
   padding: 0;
   background-color: #dd3579;
-  box-shadow: lightgray 1px 1px;
+
   border-bottom: #a50043 2px solid;
+  font-family: "OpenSans CondLight", sans-serif;
   font-weight: 100;
   font-size: 17px;
   text-align: center;
   color: #FFF;
-  font-family: "opensans_cl", "Arial", sans-serif;
+  // font-family: "opensans_cl", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 50px;
@@ -304,11 +320,13 @@
   }
 
   @media (min-width: 1800px) {
+    letter-spacing: 1px;
 
   }
 
   &:hover {
     text-decoration: underline;
+    box-shadow: rgb(212, 212, 212) 1px 1px;
   }
 }
 
@@ -357,6 +375,10 @@
 
   &--four {
     background-image: url("../img/mcar_pic5.png");
+  }
+
+  &--five {
+    background-image: url("../img/mcar_pic6.png");
   }
 }
 

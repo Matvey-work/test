@@ -78,10 +78,6 @@
 
   }
 
-  &:hover {
-    text-decoration: underline;
-  }
-
   &::before {
     content: "";
     position: absolute;
@@ -126,6 +122,10 @@
 .footer__contact-mail {
   &::before {
     background-image: url("../img/top_mail.png");
+  }
+
+  &:hover {
+    text-decoration: underline;
   }
 }
 

@@ -9,6 +9,7 @@
 
   @media (min-width: 320px) {
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 10px;
   }
 
@@ -38,6 +39,7 @@
 
 .why-us h2 {
   // margin-top: 40px;
+  color: #666;
   margin-bottom: 20px;
   // padding-top: 40px;
   background-image: url("../img/h2_why.png");
@@ -108,6 +110,8 @@
   @media (min-width: 320px) {
     // flex-wrap: wrap;
     min-width: 100%;
+    padding-bottom: 20px;
+
   }
 
   @media (min-width: 768px) {
@@ -115,11 +119,11 @@
   }
 
   @media (min-width: 1024px) {
-
+    // padding-bottom: 0;
   }
 
   @media (min-width: 1300px) {
-  min-width: 25%;
+    min-width: 25%;
 
   }
 
@@ -307,11 +311,19 @@
 }
 
 .views-block__three {
-  // @media (max-width: 767px) {
-  //   & a {
-  //     // margin-bottom: -10px;
-  //   }
-  // }
+  @media (max-width: 767px) {
+    & a {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      // margin-bottom: -10px;
+      & span {
+      text-align: center;
+
+      }
+    }
+
+  }
 
   @media (min-width: 768px) {
     height: 180px;

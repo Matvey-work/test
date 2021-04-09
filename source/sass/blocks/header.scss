@@ -67,6 +67,7 @@
 
     @media (min-width: 1300px) {
       // margin-right: 20px;
+      top: -5px;
       left: -40px;
       width: 40px;
       height: 40px;
@@ -381,7 +382,7 @@
 }
 
 .main-menu a:hover {
-  color: red;
+  color: #ee205f;
 }
 
 .main-menu a:last-child {

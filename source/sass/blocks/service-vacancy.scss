@@ -46,13 +46,14 @@
 
   @media (min-width: 1300px) {
     // padding-top: 15px;
-    background-position: 50% 55%;
+    background-position: 50% 50%;
+    line-height: 35px;
   }
 
   @media (min-width: 1800px) {
     background-position: 50% 55%;
     font-size: 40px;
-    line-height: 42px;
+    line-height: 54px;
   }
 }
 
@@ -93,6 +94,8 @@
   padding: 0px 0;
   margin-bottom: 20px;
   background-color: rgb(237, 237, 237);
+  border-bottom: #afafaf 3px solid;
+  border-radius: 10px;
   position: relative;
   cursor: pointer;
 
@@ -127,7 +130,11 @@
     background-size: contain;
 
     @media (min-width: 320px) {
-
+      top: 17px;
+      right: 20px;
+      // left: 40px;
+      width: 17px;
+      height: 17px
     }
 
     @media (min-width: 768px) {
@@ -238,10 +245,25 @@
   // display: flex;
   flex-wrap: wrap;
   // flex-direction: column;
+  border-radius: 3px;
   font-size: 20px;
   padding: 30px 40px;
   background-color: rgb(237, 237, 237);
   border-top: 2px solid #fff;
+
+  @media (min-width: 320px) {
+    padding: 10px 10px;
+
+  }
+
+  @media (min-width: 768px) {
+    padding: 30px 40px;
+
+  }
+
+  & ul {
+    list-style-type: disc;
+  }
 
   &.visible {
     display: flex;
@@ -251,7 +273,7 @@
     flex-direction: column;
   }
 
-  & .share .share__social a {
+  & .share .share__social a:not(:first-child) {
     @media (max-width: 767px) {
       margin-left: -10px;
     }
@@ -299,7 +321,7 @@
   }
 
   & span {
-    color: #000000;
+    color: #ee205f;
     font-weight: 700;
 
     @media (min-width: 320px) {
@@ -340,7 +362,7 @@
     @media (min-width: 768px) {
       width: 65%;
       height: 40%;
-      top: 10%;
+      top: 5%;
       right: -50%;
     }
 
@@ -360,9 +382,9 @@
     }
 
     @media (min-width: 1800px) {
-      width: 40%;
+      width: 60%;
       height: 40%;
-      top: 0;
+      top: 10%;
       right: -500px;
     }
   }
@@ -408,22 +430,25 @@
 .block-right {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 
 
   margin-left: auto;
 
   @media (min-width: 320px) {
     font-size: 16px;
+    justify-content: flex-end;
 
   }
 
   @media (min-width: 768px) {
     font-size: 18px;
     width: 33%;
+    margin-top: 70%;
+    margin-bottom: auto;
   }
 
   @media (min-width: 1024px) {
+    margin-top: 60%;
 
   }
 

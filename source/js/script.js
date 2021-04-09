@@ -17,8 +17,12 @@ $('.slider-nav').slick({
 });
 
 $('.vacancy-item').on('click', function(){
-  // $('.more-info').removeClass('visible');
-  $(this).find('.more-info').toggleClass('visible');
+    if ($(this).find('.more-info').hasClass('visible')) {
+    $(this).find('.more-info').removeClass('visible');
+  } else {
+    $('.more-info').removeClass('visible');
+    $(this).find('.more-info').addClass('visible');
+  }
 });
 
 $('.vacancy-item').on('click', function(){
